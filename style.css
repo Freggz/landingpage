@@ -121,3 +121,48 @@ a {
     align-self: flex-end;
     padding-right: 210px;
 }
+
+.calltoaction {
+    padding: 100px  200px;
+}
+
+.container {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+    padding: 30px 150px;
+}
+
+.calltext h3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.calltext p {
+    color: #e5e7eb; 
+    margin-top: 0px;
+}
+
+.signupcall {
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}   
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    min-height: 75px; 
+}
+
+.copyright {
+    color: #e5e7eb;
+}
