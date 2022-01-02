@@ -68,3 +68,35 @@ a {
     height: 300px;
     width: 500px;
 }
+
+.main {
+    display: flex;
+    flex-direction: column; 
+}
+
+.maintitle{
+    padding: 30px;
+    text-align: center;
+    font-style: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.fourimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.info img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
