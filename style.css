@@ -100,3 +100,24 @@ a {
     border: 2px solid #3882f6;
     border-radius: 10px;
 }
+
+.quote {
+    background-color: #ebe7eb;
+    padding: 150px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .quotesig {
+    font-weight: bold;
+    font-size: 30px;
+    align-self: flex-end;
+    padding-right: 210px;
+}
